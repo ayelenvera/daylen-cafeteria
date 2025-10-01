@@ -282,4 +282,4 @@ Para cualquier duda o problema, revisar:
 
 ---
 
-**¡Disfruta tu nueva cafetería digital! ☕✨**
+**¡Disfruta tu nueva cafetería digital! ☕✨** - Deployed on Railway
