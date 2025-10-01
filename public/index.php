@@ -15,22 +15,6 @@ require __DIR__.'/../vendor/autoload.php';
 // Bootstrap Laravel and create the application...
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
-// Manually bind critical services
-$app->singleton(
-    Illuminate\Contracts\Debug\ExceptionHandler::class,
-    App\Exceptions\Handler::class
-);
-
-$app->singleton(
-    Illuminate\Contracts\Console\Kernel::class,
-    App\Console\Kernel::class
-);
-
-$app->singleton(
-    Illuminate\Contracts\Http\Kernel::class,
-    App\Http\Kernel::class
-);
-
 // Run the application...
 $kernel = $app->make(Kernel::class);
 
