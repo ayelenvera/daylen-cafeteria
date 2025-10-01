@@ -2,7 +2,7 @@
 builder = "nixpacks"
 
 [deploy]
-startCommand = "php artisan key:generate && php artisan config:cache && php artisan serve --host=0.0.0.0 --port=${PORT}"
+startCommand = "./start.sh"
 
 [build.environment]
 NIXPACKS_NO_MIGRATE = "1"
